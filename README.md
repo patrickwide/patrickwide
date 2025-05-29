@@ -121,19 +121,29 @@ backend/
 <br/>
 
 <div align="left">
-
 ```yaml
 patrickwide@devbox:~/tech_stack$ tree ai_data/
 ai_data/
 ├── LLMs              # 🤖 Large Language Models
+│   ├── OpenAI        # GPT models
+│   ├── Llama         # Meta's Llama models
+│   ├── DeepSeek      # DeepSeek models
+│   └── Mistral       # Mistral AI models
+├── LocalInference    # 🖥️ Local model serving
+│   └── Ollama        # Local LLM runtime
+├── Frameworks        # 🔗 AI development frameworks
+│   └── LangChain     # LLM application framework
 ├── ChromaDB          # 🧠 Vector database
 ├── VectorDBs         # 📊 Semantic search
 └── MachineLearning   # 🔬 ML algorithms
 ```
 
-</div>
-
 ![LLMs](https://img.shields.io/badge/LLMs-FF6B6B?style=flat-square&logo=openai&logoColor=white&labelColor=2b2b2b)&nbsp;
+![Llama](https://img.shields.io/badge/Llama-0084FF?style=flat-square&logo=meta&logoColor=white&labelColor=2b2b2b)&nbsp;
+![DeepSeek](https://img.shields.io/badge/DeepSeek-8A2BE2?style=flat-square&logo=brain&logoColor=white&labelColor=2b2b2b)&nbsp;
+![Mistral](https://img.shields.io/badge/Mistral-FF7000?style=flat-square&logo=mistral&logoColor=white&labelColor=2b2b2b)&nbsp;
+![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=llama&logoColor=white&labelColor=2b2b2b)&nbsp;
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=chainlink&logoColor=white&labelColor=2b2b2b)&nbsp;
 ![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6B35?style=flat-square&logo=databricks&logoColor=white&labelColor=2b2b2b)&nbsp;
 ![VectorDB](https://img.shields.io/badge/VectorDB-4ECDC4?style=flat-square&logo=postgresql&logoColor=white&labelColor=2b2b2b)&nbsp;
 ![ML](https://img.shields.io/badge/ML-FF6F00?style=flat-square&logo=tensorflow&logoColor=white&labelColor=2b2b2b)
